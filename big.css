@@ -1,0 +1,127 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.flex-container
+{
+    display: flex;
+    padding: 0px ;
+    border: 1px solid black;
+    flex-direction: row;
+    
+}
+.sub-flex-container
+{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1px;
+    column-gap:1px;
+    overflow-x: hidden;
+    justify-content: center;
+    padding: 1px;
+
+   
+}
+.sub-1
+{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+   
+
+    
+  
+   
+    
+}
+.sub-2
+{
+    width: 32vw;
+    height: 30vw;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+   border:1px solid black;
+    text-align:justify;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    
+    
+    
+}
+img
+{
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50%;
+   
+  }
+::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+.sub-3
+{
+    width: 32vw;
+    height: 30vw;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+   border:1px solid black;
+    text-align:justify;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.sub-4
+{
+    width: 32vw;
+    height: 30vw;
+    background-color: white;;
+    flex: auto;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+   border:1px solid black;
+    text-align:justify;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.sub-5
+{
+    width: 32vw;
+    height: 30vw;
+    background-color: white;;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+   border:1px solid black;
+    text-align:justify;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.sub-6
+{
+    width: 32vw;
+    height: 30vw;
+    background-color: white;;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+   border:1px solid black;
+    text-align:justify;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+    flex-grow: 2;
+}
